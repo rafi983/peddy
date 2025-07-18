@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function BestDealsSection() {
   const pets = [
     {
-      imageSrc: "/placeholder.svg?height=300&width=400",
+      imageSrc: "/dealImg1.png",
       name: "Mister Tartosh",
       breed: "Golden retriever",
       birthYear: 2024,
@@ -13,7 +13,7 @@ export default function BestDealsSection() {
       vaccinatedStatus: "Partially",
     },
     {
-      imageSrc: "/placeholder.svg?height=300&width=400",
+      imageSrc: "/dealImg2.png",
       name: "Charlie",
       breed: "Golden retriever",
       birthYear: 2024,
@@ -22,7 +22,7 @@ export default function BestDealsSection() {
       vaccinatedStatus: "Fully",
     },
     {
-      imageSrc: "/placeholder.svg?height=300&width=400",
+      imageSrc: "/dealImg3.png",
       name: "Alessia Max",
       breed: "Golden retriever",
       birthYear: 2024,
@@ -33,12 +33,12 @@ export default function BestDealsSection() {
   ]
 
   const smallImages = [
-    "/placeholder.svg?height=150&width=150",
-    "/placeholder.svg?height=150&width=150",
-    "/placeholder.svg?height=150&width=150",
-    "/placeholder.svg?height=150&width=150",
-    "/placeholder.svg?height=150&width=150",
-    "/placeholder.svg?height=150&width=150",
+    "/gridImg1.png",
+    "/gridImg2.png",
+    "/gridImg3.png",
+    "/gridImg4.png",
+    "/gridImg5.png",
+    "/gridImg6.png",
   ]
 
   return (

@@ -24,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className="mt-12 flex justify-center">
           <Image
-            src="/placeholder.svg?height=400&width=800"
+            src="/banner.jpg"
             width={800}
             height={400}
             alt="Dog and Cat"

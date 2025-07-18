@@ -14,19 +14,19 @@ export default function AdoptionCategories() {
         </p>
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <button className="flex items-center gap-2 rounded-full px-6 py-3 text-lg border border-gray-300 text-black hover:bg-gray-100 bg-transparent">
-            <Image src="/placeholder.svg?height=32&width=32" width={32} height={32} alt="Dogs icon" />
+            <Image src="/dog.jpg" width={32} height={32} alt="Dogs icon" />
             Dogs
           </button>
           <button className="flex items-center gap-2 rounded-full px-6 py-3 text-lg bg-primary text-white hover:bg-primary/90">
-            <Image src="/placeholder.svg?height=32&width=32" width={32} height={32} alt="Cats icon" />
+            <Image src="/cat.jpg" width={32} height={32} alt="Cats icon" />
             Cats
           </button>
           <button className="flex items-center gap-2 rounded-full px-6 py-3 text-lg border border-gray-300 text-black hover:bg-gray-100 bg-transparent">
-            <Image src="/placeholder.svg?height=32&width=32" width={32} height={32} alt="Rabbits icon" />
+            <Image src="/rabbit.jpg" width={32} height={32} alt="Rabbits icon" />
             Rabbits
           </button>
           <button className="flex items-center gap-2 rounded-full px-6 py-3 text-lg border border-gray-300 text-black hover:bg-gray-100 bg-transparent">
-            <Image src="/placeholder.svg?height=32&width=32" width={32} height={32} alt="Birds icon" />
+            <Image src="/bird.jpg" width={32} height={32} alt="Birds icon" />
             Birds
           </button>
         </div>

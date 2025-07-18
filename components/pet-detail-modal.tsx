@@ -52,7 +52,7 @@ export default function PetDetailModal({ isOpen, onClose, pet }: PetDetailModalP
       >
         <div className="relative">
           <Image
-            src={pet.imageSrc || "/placeholder.svg"}
+            src={"/modalImg.png"}
             width={650}
             height={350}
             alt={pet.name}
